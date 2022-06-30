@@ -1,0 +1,64 @@
+* {
+    margin: 0; 
+    padding: 0;
+}
+
+#app {
+    border: 3px solid black;
+    margin: 30px auto;
+    padding: 30px 0;
+    width: 80%;
+    text-align: center;
+    border-radius: 20px;
+    min-height: 220px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+.title {
+    padding-bottom: 30px;
+    font-size: 24px;
+}
+
+.textbox {
+    width: 300px;
+    height: 40px;
+    border-color: blue;
+    background-color: rgb(155, 235, 235);
+    border-radius: 7px;
+    font-size: 20px;
+    margin-right: 40px;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    outline: 1px solid black;
+    box-shadow: none;
+}
+
+.todo-container {
+    display: flex;
+    font-size: 20px;
+    width: 90%;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+
+.todo-container-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid blue;
+    /* width: 800px; */
+    /* min-width: 90%; */
+}
+
+
+.delete-button {
+    width: 60px;
+    height: 20px;
+}
