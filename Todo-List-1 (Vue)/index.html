@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Vue Todo List</title>
     <script src="https://unpkg.com/vue@3.0.0-beta.12/dist/vue.global.js"></script>
     <link rel="stylesheet" href="style.css">
 
@@ -13,7 +13,7 @@
     <div id="app">
         <h1 class="title">To-Do List w/ Vue</h1>
         <div>
-            <input v-model="newTodo" class="textbox" type="text" id="text" placeholder=" Add an item!">
+            <input v-model="newTodo" class="textbox" type="text" id="text" maxlength="50" placeholder=" Add an item!">
             <button @click="addTodo">Add</button>    
             <button @click="clearList()">Clear List</button>  
         </div>
